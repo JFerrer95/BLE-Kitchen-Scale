@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D1CD37202367DB79004A66D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CD371F2367DB79004A66D7 /* AppDelegate.swift */; };
-		D1CD37222367DB79004A66D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CD37212367DB79004A66D7 /* SceneDelegate.swift */; };
-		D1CD37242367DB79004A66D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CD37232367DB79004A66D7 /* ViewController.swift */; };
-		D1CD37272367DB79004A66D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1CD37252367DB79004A66D7 /* Main.storyboard */; };
-		D1CD37292367DB7C004A66D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1CD37282367DB7C004A66D7 /* Assets.xcassets */; };
-		D1CD372C2367DB7C004A66D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1CD372A2367DB7C004A66D7 /* LaunchScreen.storyboard */; };
+		D1CA394323BBC9C90047F600 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CA394223BBC9C90047F600 /* AppDelegate.swift */; };
+		D1CA394523BBC9C90047F600 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CA394423BBC9C90047F600 /* SceneDelegate.swift */; };
+		D1CA394723BBC9C90047F600 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CA394623BBC9C90047F600 /* ViewController.swift */; };
+		D1CA394A23BBC9C90047F600 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1CA394823BBC9C90047F600 /* Main.storyboard */; };
+		D1CA394C23BBC9CC0047F600 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1CA394B23BBC9CC0047F600 /* Assets.xcassets */; };
+		D1CA394F23BBC9CC0047F600 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1CA394D23BBC9CC0047F600 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D1CD371C2367DB78004A66D7 /* BLE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLE.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D1CD371F2367DB79004A66D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D1CD37212367DB79004A66D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D1CD37232367DB79004A66D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D1CD37262367DB79004A66D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D1CD37282367DB7C004A66D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D1CD372B2367DB7C004A66D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D1CD372D2367DB7C004A66D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1CA393F23BBC9C90047F600 /* ScaleBluetooth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScaleBluetooth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1CA394223BBC9C90047F600 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D1CA394423BBC9C90047F600 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D1CA394623BBC9C90047F600 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D1CA394923BBC9C90047F600 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D1CA394B23BBC9CC0047F600 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D1CA394E23BBC9CC0047F600 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D1CA395023BBC9CC0047F600 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D1CD37192367DB78004A66D7 /* Frameworks */ = {
+		D1CA393C23BBC9C90047F600 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,72 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D1CD37132367DB78004A66D7 = {
+		D1CA393623BBC9C90047F600 = {
 			isa = PBXGroup;
 			children = (
-				D1CD371E2367DB78004A66D7 /* BLE */,
-				D1CD371D2367DB78004A66D7 /* Products */,
+				D1CA394123BBC9C90047F600 /* ScaleBluetooth */,
+				D1CA394023BBC9C90047F600 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D1CD371D2367DB78004A66D7 /* Products */ = {
+		D1CA394023BBC9C90047F600 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D1CD371C2367DB78004A66D7 /* BLE.app */,
+				D1CA393F23BBC9C90047F600 /* ScaleBluetooth.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D1CD371E2367DB78004A66D7 /* BLE */ = {
+		D1CA394123BBC9C90047F600 /* ScaleBluetooth */ = {
 			isa = PBXGroup;
 			children = (
-				D1CD371F2367DB79004A66D7 /* AppDelegate.swift */,
-				D1CD37212367DB79004A66D7 /* SceneDelegate.swift */,
-				D1CD37232367DB79004A66D7 /* ViewController.swift */,
-				D1CD37252367DB79004A66D7 /* Main.storyboard */,
-				D1CD37282367DB7C004A66D7 /* Assets.xcassets */,
-				D1CD372A2367DB7C004A66D7 /* LaunchScreen.storyboard */,
-				D1CD372D2367DB7C004A66D7 /* Info.plist */,
+				D1CA394223BBC9C90047F600 /* AppDelegate.swift */,
+				D1CA394423BBC9C90047F600 /* SceneDelegate.swift */,
+				D1CA394623BBC9C90047F600 /* ViewController.swift */,
+				D1CA394823BBC9C90047F600 /* Main.storyboard */,
+				D1CA394B23BBC9CC0047F600 /* Assets.xcassets */,
+				D1CA394D23BBC9CC0047F600 /* LaunchScreen.storyboard */,
+				D1CA395023BBC9CC0047F600 /* Info.plist */,
 			);
-			path = BLE;
+			path = ScaleBluetooth;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D1CD371B2367DB78004A66D7 /* BLE */ = {
+		D1CA393E23BBC9C90047F600 /* ScaleBluetooth */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D1CD37302367DB7C004A66D7 /* Build configuration list for PBXNativeTarget "BLE" */;
+			buildConfigurationList = D1CA395323BBC9CC0047F600 /* Build configuration list for PBXNativeTarget "ScaleBluetooth" */;
 			buildPhases = (
-				D1CD37182367DB78004A66D7 /* Sources */,
-				D1CD37192367DB78004A66D7 /* Frameworks */,
-				D1CD371A2367DB78004A66D7 /* Resources */,
+				D1CA393B23BBC9C90047F600 /* Sources */,
+				D1CA393C23BBC9C90047F600 /* Frameworks */,
+				D1CA393D23BBC9C90047F600 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = BLE;
-			productName = BLE;
-			productReference = D1CD371C2367DB78004A66D7 /* BLE.app */;
+			name = ScaleBluetooth;
+			productName = ScaleBluetooth;
+			productReference = D1CA393F23BBC9C90047F600 /* ScaleBluetooth.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D1CD37142367DB78004A66D7 /* Project object */ = {
+		D1CA393723BBC9C90047F600 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1110;
-				LastUpgradeCheck = 1110;
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Jonathan Ferrer";
 				TargetAttributes = {
-					D1CD371B2367DB78004A66D7 = {
-						CreatedOnToolsVersion = 11.1;
+					D1CA393E23BBC9C90047F600 = {
+						CreatedOnToolsVersion = 11.3;
 					};
 				};
 			};
-			buildConfigurationList = D1CD37172367DB78004A66D7 /* Build configuration list for PBXProject "BLE" */;
+			buildConfigurationList = D1CA393A23BBC9C90047F600 /* Build configuration list for PBXProject "ScaleBluetooth" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,55 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = D1CD37132367DB78004A66D7;
-			productRefGroup = D1CD371D2367DB78004A66D7 /* Products */;
+			mainGroup = D1CA393623BBC9C90047F600;
+			productRefGroup = D1CA394023BBC9C90047F600 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D1CD371B2367DB78004A66D7 /* BLE */,
+				D1CA393E23BBC9C90047F600 /* ScaleBluetooth */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D1CD371A2367DB78004A66D7 /* Resources */ = {
+		D1CA393D23BBC9C90047F600 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1CD372C2367DB7C004A66D7 /* LaunchScreen.storyboard in Resources */,
-				D1CD37292367DB7C004A66D7 /* Assets.xcassets in Resources */,
-				D1CD37272367DB79004A66D7 /* Main.storyboard in Resources */,
+				D1CA394F23BBC9CC0047F600 /* LaunchScreen.storyboard in Resources */,
+				D1CA394C23BBC9CC0047F600 /* Assets.xcassets in Resources */,
+				D1CA394A23BBC9C90047F600 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D1CD37182367DB78004A66D7 /* Sources */ = {
+		D1CA393B23BBC9C90047F600 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1CD37242367DB79004A66D7 /* ViewController.swift in Sources */,
-				D1CD37202367DB79004A66D7 /* AppDelegate.swift in Sources */,
-				D1CD37222367DB79004A66D7 /* SceneDelegate.swift in Sources */,
+				D1CA394723BBC9C90047F600 /* ViewController.swift in Sources */,
+				D1CA394323BBC9C90047F600 /* AppDelegate.swift in Sources */,
+				D1CA394523BBC9C90047F600 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D1CD37252367DB79004A66D7 /* Main.storyboard */ = {
+		D1CA394823BBC9C90047F600 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D1CD37262367DB79004A66D7 /* Base */,
+				D1CA394923BBC9C90047F600 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		D1CD372A2367DB7C004A66D7 /* LaunchScreen.storyboard */ = {
+		D1CA394D23BBC9CC0047F600 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D1CD372B2367DB7C004A66D7 /* Base */,
+				D1CA394E23BBC9CC0047F600 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		D1CD372E2367DB7C004A66D7 /* Debug */ = {
+		D1CA395123BBC9CC0047F600 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -216,7 +216,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -226,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		D1CD372F2367DB7C004A66D7 /* Release */ = {
+		D1CA395223BBC9CC0047F600 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -270,7 +270,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -280,38 +280,36 @@
 			};
 			name = Release;
 		};
-		D1CD37312367DB7C004A66D7 /* Debug */ = {
+		D1CA395423BBC9CC0047F600 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F2KHAE3YT5;
-				INFOPLIST_FILE = BLE/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				INFOPLIST_FILE = ScaleBluetooth/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jonathanferrer.BLE;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonathanferrer.ScaleBluetooth;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		D1CD37322367DB7C004A66D7 /* Release */ = {
+		D1CA395523BBC9CC0047F600 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F2KHAE3YT5;
-				INFOPLIST_FILE = BLE/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				INFOPLIST_FILE = ScaleBluetooth/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jonathanferrer.BLE;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonathanferrer.ScaleBluetooth;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -321,25 +319,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D1CD37172367DB78004A66D7 /* Build configuration list for PBXProject "BLE" */ = {
+		D1CA393A23BBC9C90047F600 /* Build configuration list for PBXProject "ScaleBluetooth" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D1CD372E2367DB7C004A66D7 /* Debug */,
-				D1CD372F2367DB7C004A66D7 /* Release */,
+				D1CA395123BBC9CC0047F600 /* Debug */,
+				D1CA395223BBC9CC0047F600 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D1CD37302367DB7C004A66D7 /* Build configuration list for PBXNativeTarget "BLE" */ = {
+		D1CA395323BBC9CC0047F600 /* Build configuration list for PBXNativeTarget "ScaleBluetooth" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D1CD37312367DB7C004A66D7 /* Debug */,
-				D1CD37322367DB7C004A66D7 /* Release */,
+				D1CA395423BBC9CC0047F600 /* Debug */,
+				D1CA395523BBC9CC0047F600 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D1CD37142367DB78004A66D7 /* Project object */;
+	rootObject = D1CA393723BBC9C90047F600 /* Project object */;
 }
