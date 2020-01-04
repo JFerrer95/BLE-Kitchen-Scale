@@ -15,27 +15,46 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mSc-ce-yFs">
-                                <rect key="frame" x="147" y="313" width="81" height="41"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Data" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mSc-ce-yFs">
+                                <rect key="frame" x="128" y="313" width="119" height="41"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gjQ-nX-hAp">
+                                <rect key="frame" x="16" y="33" width="343" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="4148928" translatesAutoresizingMaskIntoConstraints="NO" id="23P-Qd-Rek">
+                                <rect key="frame" x="14" y="616" width="347" height="31"/>
+                                <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </slider>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="mSc-ce-yFs" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="870-sU-8qG"/>
+                            <constraint firstItem="gjQ-nX-hAp" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="33" id="8NR-1P-yEp"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gjQ-nX-hAp" secondAttribute="trailing" constant="16" id="8R1-hk-jOw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="23P-Qd-Rek" secondAttribute="trailing" constant="16" id="DFe-dj-hzC"/>
+                            <constraint firstItem="23P-Qd-Rek" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="LYw-VZ-tpY"/>
+                            <constraint firstItem="gjQ-nX-hAp" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="UZg-ZB-3cZ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="23P-Qd-Rek" secondAttribute="bottom" constant="21" id="X0E-pa-b4U"/>
                             <constraint firstItem="mSc-ce-yFs" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="frN-qz-RjS"/>
+                            <constraint firstItem="gjQ-nX-hAp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="sEz-sS-J5s"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="connectedLabel" destination="gjQ-nX-hAp" id="i6E-GW-2h3"/>
+                        <outlet property="slider" destination="23P-Qd-Rek" id="P8i-bb-WPV"/>
                         <outlet property="weightLabel" destination="mSc-ce-yFs" id="DTW-0i-qZ0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="133" y="139"/>
+            <point key="canvasLocation" x="132" y="138.98050974512745"/>
         </scene>
     </scenes>
 </document>

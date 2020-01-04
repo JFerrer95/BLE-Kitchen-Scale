@@ -26,10 +26,13 @@ class ViewController: UIViewController, CBCentralManagerDelegate, CBPeripheralDe
     let kitchenScaleCharacteristicUUID7 = CBUUID(string: "D618D020-6000-1000-8000-000000000000")
     let kitchenScaleCharacteristicUUID8 = CBUUID(string: "D618D030-6000-1000-8000-000000000000")
     
+
+    @IBOutlet weak var slider: UISlider!
     
     @IBOutlet weak var weightLabel: UILabel!
     
-
+    @IBOutlet weak var connectedLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -63,6 +66,7 @@ class ViewController: UIViewController, CBCentralManagerDelegate, CBPeripheralDe
     
     func centralManager(_ central: CBCentralManager, didConnect peripheral: CBPeripheral) {
         print("Connectedddd to: \(peripheral.name!)")
+        connectedLabel.text = "Connected to: \(peripheral.name!)"
         peripheral.delegate = self
         peripheral.discoverServices([])
     }
@@ -97,10 +101,15 @@ class ViewController: UIViewController, CBCentralManagerDelegate, CBPeripheralDe
     
     func peripheral(_ peripheral: CBPeripheral, didUpdateValueFor characteristic: CBCharacteristic, error: Error?) {
         if let data = characteristic.value {
-            let weight: Int = data.withUnsafeBytes{ $0.pointee } //>> 34 & 0xFFFFFF
+            let weight: Int = data.withUnsafeBytes{ $0.pointee } >> 34
             weightLabel.text = String(weight)
+            slider.value = Float(weight)
+            
+
         }
 
     }
+    
+    var heaviestValue: Int = 0
 
 }
